@@ -1,0 +1,59 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SPI_LAN_TEST",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SPI_LAN_TEST::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SPI_LAN_TEST-Debug-2f7249b868c071c323ed.json",
+					"name" : "SPI_LAN_TEST",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/fujiyamayuta/STM32CubeIDE/workspace_1.10.1/SPI_LAN_TEST/build/debug/build",
+		"source" : "/Users/fujiyamayuta/STM32CubeIDE/workspace_1.10.1/SPI_LAN_TEST"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

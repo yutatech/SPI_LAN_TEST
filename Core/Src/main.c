@@ -127,9 +127,10 @@ int main(void)
 
   socket(SN, Sn_MR_UDP, PORT, SF_IO_NONBLOCK);
   uint8_t srv_ip[] = {192,168,0,2};
-  connect(SN, srv_ip, 1234);
+  // connect(SN, srv_ip, 1234);
   uint8_t send_data[] = {'A', 'B', 'C'};
-  send(SN, send_data, 3);
+  // send(SN, send_data, 3);
+  sendto(SN, send_data, 3, srv_ip, 1234);
   close(SN);
 
   /* USER CODE END 2 */
